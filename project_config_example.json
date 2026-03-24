@@ -1,0 +1,23 @@
+{
+  "input_video": "input/traffic_signal_video.mp4",
+  "output_dir": "sample_output",
+  "output_video_name": "processed_output.mp4",
+  "counts_csv_name": "vehicle_counts.csv",
+  "recommendation_csv_name": "signal_recommendations.csv",
+  "recommendation_json_name": "signal_recommendations.json",
+  "summary_json_name": "run_summary.json",
+  "model_path": "yolov8n.pt",
+  "confidence_threshold": 0.35,
+  "frame_skip": 2,
+  "show_window": true,
+  "force_cpu": false,
+  "max_seconds": null,
+  "region_file": null,
+  "min_green_seconds": 8.0,
+  "tie_margin": 1,
+  "save_final_frame": true,
+  "final_frame_name": "final_frame.jpg",
+  "plot_counts_name": "vehicle_counts_over_time.png",
+  "plot_density_name": "region_density_over_time.png",
+  "log_interval_frames": 30
+}

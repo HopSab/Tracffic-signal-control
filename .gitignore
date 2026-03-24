@@ -1,0 +1,48 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Project outputs
+data/processed/
+sample_output/*
+!sample_output/.gitkeep
+
+# Generated media/exports
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.log
+
+# Model weights and large binaries
+*.pt
+*.onnx
+*.engine
+
+# Keep source video directory structure, but not actual videos by default
+data/raw/*
+!data/raw/.gitkeep
